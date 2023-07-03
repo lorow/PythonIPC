@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonrustipcbackend"
+version = "0.1.0"
+description = ""
+authors = ["lorow <smykupyka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pywin32 = {version = "^306", platform = "nt"}
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+ruff = "^0.0.276"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
